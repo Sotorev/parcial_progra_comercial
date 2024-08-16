@@ -28,10 +28,14 @@ This is a RESTful API for a Human Resources Management System built using FastAP
    cd hr-management-api
 
 2. **Install FastAPI and dependencies**
+   
+   ```bash
    pip install "fastapi[standard]"
    pip install sqlalchemy pymysql
 
-3. **Run the api**
+4. **Run the api**
+   
+   ```bash
    fastapi dev main.py
 
 
